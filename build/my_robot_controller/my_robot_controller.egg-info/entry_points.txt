@@ -1,0 +1,5 @@
+[console_scripts]
+listener = my_robot_controller.listener:main
+talker = my_robot_controller.talker:main
+test_node = my_robot_controller.my_first_node:main
+

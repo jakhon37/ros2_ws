@@ -1,0 +1,19 @@
+[0.302s] Invoking command in '/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[0.404s] running develop
+[0.459s] running egg_info
+[0.459s] writing my_robot_controller.egg-info/PKG-INFO
+[0.459s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.459s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.460s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.460s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.460s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.461s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.461s] running build_ext
+[0.461s] Creating /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.462s] Installing listener script to /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.462s] Installing talker script to /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.462s] Installing test_node script to /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.462s] 
+[0.462s] Installed /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller
+[0.462s] running symlink_data
+[0.474s] Invoked command in '/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
