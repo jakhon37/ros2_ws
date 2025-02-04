@@ -1,1 +1,0 @@
-/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/src/my_robot_controller/setup.py

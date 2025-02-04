@@ -1,0 +1,25 @@
+[4.370s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_test': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_test/build --no-deps symlink_data
+[5.720s] running develop
+[6.519s] running egg_info
+[6.520s] creating robot_test.egg-info
+[6.520s] writing robot_test.egg-info/PKG-INFO
+[6.521s] writing dependency_links to robot_test.egg-info/dependency_links.txt
+[6.525s] writing entry points to robot_test.egg-info/entry_points.txt
+[6.526s] writing requirements to robot_test.egg-info/requires.txt
+[6.527s] writing top-level names to robot_test.egg-info/top_level.txt
+[6.528s] writing manifest file 'robot_test.egg-info/SOURCES.txt'
+[6.532s] reading manifest file 'robot_test.egg-info/SOURCES.txt'
+[6.533s] writing manifest file 'robot_test.egg-info/SOURCES.txt'
+[6.541s] running build_ext
+[6.541s] Creating /home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages/robot-test.egg-link (link to .)
+[6.547s] Installing listener script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[6.548s] Installing my_first_node script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[6.557s] Installing talker script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[6.565s] 
+[6.567s] Installed /home/ubuntu/ros2_ws/build/robot_test
+[6.569s] running symlink_data
+[6.574s] creating /home/ubuntu/ros2_ws/install/robot_test/share/ament_index
+[6.576s] creating /home/ubuntu/ros2_ws/install/robot_test/share/ament_index/resource_index
+[6.578s] creating /home/ubuntu/ros2_ws/install/robot_test/share/ament_index/resource_index/packages
+[6.580s] symbolically linking /home/ubuntu/ros2_ws/build/robot_test/resource/robot_test -> /home/ubuntu/ros2_ws/install/robot_test/share/ament_index/resource_index/packages
+[6.587s] symbolically linking /home/ubuntu/ros2_ws/build/robot_test/package.xml -> /home/ubuntu/ros2_ws/install/robot_test/share/robot_test

@@ -1,0 +1,31 @@
+[8.160s] Invoking command in '/home/ubuntu/ros2_ws/build/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/motor_control/build
+[10.409s] running develop
+[11.958s] Removing /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor-control.egg-link (link to .)
+[12.159s] Invoked command in '/home/ubuntu/ros2_ws/build/motor_control' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/motor_control/build
+[12.163s] Invoking command in '/home/ubuntu/ros2_ws/src/motor_control': PYTHONPATH=/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/ubuntu/ros2_ws/build/motor_control/build install --record /home/ubuntu/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data --force
+[13.914s] running egg_info
+[13.917s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[13.919s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[13.920s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[13.921s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[13.922s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[13.930s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[13.935s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[13.935s] running build
+[13.936s] running build_py
+[13.937s] copying motor_control/motor_controller.py -> /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control
+[13.938s] running install
+[13.940s] running install_lib
+[13.943s] creating /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[13.943s] copying /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control/__init__.py -> /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[13.944s] copying /home/ubuntu/ros2_ws/build/motor_control/build/lib/motor_control/motor_controller.py -> /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[13.947s] byte-compiling /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc
+[13.949s] byte-compiling /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control/motor_controller.py to motor_controller.cpython-310.pyc
+[13.953s] running install_data
+[13.954s] copying resource/motor_control -> /home/ubuntu/ros2_ws/install/motor_control/share/ament_index/resource_index/packages
+[13.954s] copying package.xml -> /home/ubuntu/ros2_ws/install/motor_control/share/motor_control
+[13.955s] running install_egg_info
+[13.964s] Copying ../../build/motor_control/motor_control.egg-info to /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[13.971s] running install_scripts
+[14.062s] Installing motor_controller script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control
+[14.064s] writing list of installed files to '/home/ubuntu/ros2_ws/build/motor_control/install.log'

@@ -1,0 +1,19 @@
+[8.451s] Invoking command in '/home/ubuntu/ros2_ws/build/mpu6050_imu': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/mpu6050_imu/build --no-deps symlink_data --force
+[10.261s] running develop
+[11.386s] running egg_info
+[11.390s] writing mpu6050_imu.egg-info/PKG-INFO
+[11.395s] writing dependency_links to mpu6050_imu.egg-info/dependency_links.txt
+[11.402s] writing entry points to mpu6050_imu.egg-info/entry_points.txt
+[11.420s] writing requirements to mpu6050_imu.egg-info/requires.txt
+[11.427s] writing top-level names to mpu6050_imu.egg-info/top_level.txt
+[11.440s] reading manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+[11.451s] writing manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+[11.472s] running build_ext
+[11.473s] Creating /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)
+[11.492s] Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu
+[11.493s] 
+[11.495s] Installed /home/ubuntu/ros2_ws/build/mpu6050_imu
+[11.497s] running symlink_data
+[11.498s] symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/resource/mpu6050_imu -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/ament_index/resource_index/packages
+[11.499s] symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/package.xml -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/mpu6050_imu
+[12.039s] Invoked command in '/home/ubuntu/ros2_ws/build/mpu6050_imu' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/mpu6050_imu/build --no-deps symlink_data --force

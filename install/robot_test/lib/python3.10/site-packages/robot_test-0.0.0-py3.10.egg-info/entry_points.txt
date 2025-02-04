@@ -1,0 +1,5 @@
+[console_scripts]
+listener = robot_test.listener:main
+my_first_node = robot_test.my_first_node:main
+talker = robot_test.talker:main
+

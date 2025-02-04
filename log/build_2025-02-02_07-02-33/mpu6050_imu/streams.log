@@ -1,0 +1,21 @@
+[8.580s] Invoking command in '/home/ubuntu/ros2_ws/src/mpu6050_imu': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mpu6050_imu build --build-base /home/ubuntu/ros2_ws/build/mpu6050_imu/build install --record /home/ubuntu/ros2_ws/build/mpu6050_imu/install.log --single-version-externally-managed install_data
+[10.550s] running egg_info
+[10.559s] writing ../../build/mpu6050_imu/mpu6050_imu.egg-info/PKG-INFO
+[10.568s] writing dependency_links to ../../build/mpu6050_imu/mpu6050_imu.egg-info/dependency_links.txt
+[10.576s] writing entry points to ../../build/mpu6050_imu/mpu6050_imu.egg-info/entry_points.txt
+[10.583s] writing requirements to ../../build/mpu6050_imu/mpu6050_imu.egg-info/requires.txt
+[10.598s] writing top-level names to ../../build/mpu6050_imu/mpu6050_imu.egg-info/top_level.txt
+[10.616s] reading manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+[10.631s] writing manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+[10.636s] running build
+[10.640s] running build_py
+[10.643s] running install
+[10.653s] running install_lib
+[10.665s] running install_data
+[10.671s] running install_egg_info
+[10.674s] removing '/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu-0.0.0-py3.10.egg-info' (and everything under it)
+[10.680s] Copying ../../build/mpu6050_imu/mpu6050_imu.egg-info to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu-0.0.0-py3.10.egg-info
+[10.680s] running install_scripts
+[10.801s] Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu
+[10.804s] writing list of installed files to '/home/ubuntu/ros2_ws/build/mpu6050_imu/install.log'
+[10.999s] Invoked command in '/home/ubuntu/ros2_ws/src/mpu6050_imu' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mpu6050_imu build --build-base /home/ubuntu/ros2_ws/build/mpu6050_imu/build install --record /home/ubuntu/ros2_ws/build/mpu6050_imu/install.log --single-version-externally-managed install_data

@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.002462] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.003013] (mpu6050_imu) JobQueued: {'identifier': 'mpu6050_imu', 'dependencies': OrderedDict()}
+[0.003234] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.003745] (robot_test) JobQueued: {'identifier': 'robot_test', 'dependencies': OrderedDict()}
+[0.003973] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.004099] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.064884] (mpu6050_imu) JobStarted: {'identifier': 'mpu6050_imu'}
+[0.094434] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.098834] (-) TimerEvent: {}
+[0.125262] (robot_test) JobStarted: {'identifier': 'robot_test'}
+[0.199047] (-) TimerEvent: {}
+[0.299871] (-) TimerEvent: {}
+[0.400758] (-) TimerEvent: {}
+[0.501534] (-) TimerEvent: {}
+[0.602385] (-) TimerEvent: {}
+[0.703210] (-) TimerEvent: {}
+[0.803961] (-) TimerEvent: {}
+[0.904783] (-) TimerEvent: {}
+[1.005535] (-) TimerEvent: {}
+[1.106310] (-) TimerEvent: {}
+[1.207096] (-) TimerEvent: {}
+[1.308034] (-) TimerEvent: {}
+[1.409290] (-) TimerEvent: {}
+[1.510120] (-) TimerEvent: {}
+[1.610907] (-) TimerEvent: {}
+[1.711748] (-) TimerEvent: {}
+[1.812596] (-) TimerEvent: {}
+[1.914010] (-) TimerEvent: {}
+[2.014779] (-) TimerEvent: {}
+[2.115549] (-) TimerEvent: {}
+[2.216314] (-) TimerEvent: {}
+[2.317137] (-) TimerEvent: {}
+[2.417929] (-) TimerEvent: {}
+[2.518734] (-) TimerEvent: {}
+[2.619601] (-) TimerEvent: {}
+[2.720794] (-) TimerEvent: {}
+[2.821766] (-) TimerEvent: {}
+[2.922552] (-) TimerEvent: {}
+[3.023417] (-) TimerEvent: {}
+[3.124193] (-) TimerEvent: {}
+[3.225035] (-) TimerEvent: {}
+[3.325783] (-) TimerEvent: {}
+[3.426561] (-) TimerEvent: {}
+[3.527394] (-) TimerEvent: {}
+[3.628165] (-) TimerEvent: {}
+[3.729015] (-) TimerEvent: {}
+[3.829836] (-) TimerEvent: {}
+[3.930729] (-) TimerEvent: {}
+[4.031650] (-) TimerEvent: {}
+[4.132540] (-) TimerEvent: {}
+[4.233378] (-) TimerEvent: {}
+[4.334173] (-) TimerEvent: {}
+[4.434953] (-) TimerEvent: {}
+[4.535729] (-) TimerEvent: {}
+[4.636524] (-) TimerEvent: {}
+[4.737331] (-) TimerEvent: {}
+[4.838089] (-) TimerEvent: {}
+[4.938910] (-) TimerEvent: {}
+[5.039646] (-) TimerEvent: {}
+[5.140547] (-) TimerEvent: {}
+[5.244298] (-) TimerEvent: {}
+[5.345762] (-) TimerEvent: {}
+[5.446845] (-) TimerEvent: {}
+[5.547985] (-) TimerEvent: {}
+[5.649492] (-) TimerEvent: {}
+[5.750570] (-) TimerEvent: {}
+[5.851914] (-) TimerEvent: {}
+[5.952833] (-) TimerEvent: {}
+[6.053753] (-) TimerEvent: {}
+[6.154607] (-) TimerEvent: {}
+[6.256062] (-) TimerEvent: {}
+[6.357634] (-) TimerEvent: {}
+[6.458573] (-) TimerEvent: {}
+[6.559521] (-) TimerEvent: {}
+[6.660471] (-) TimerEvent: {}
+[6.761479] (-) TimerEvent: {}
+[6.862432] (-) TimerEvent: {}
+[6.964603] (-) TimerEvent: {}
+[7.066986] (-) TimerEvent: {}
+[7.167921] (-) TimerEvent: {}
+[7.268855] (-) TimerEvent: {}
+[7.369708] (-) TimerEvent: {}
+[7.471098] (-) TimerEvent: {}
+[7.572423] (-) TimerEvent: {}
+[7.673538] (-) TimerEvent: {}
+[7.774688] (-) TimerEvent: {}
+[7.876360] (-) TimerEvent: {}
+[7.980223] (-) TimerEvent: {}
+[8.082436] (-) TimerEvent: {}
+[8.185792] (-) TimerEvent: {}
+[8.289316] (-) TimerEvent: {}
+[8.393058] (-) TimerEvent: {}
+[8.442400] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/build/motor_control/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/ubuntu/ros2_ws/build/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 33746 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/my_robot_controller:/home/ubuntu/ros2_ws/install/mpu6050_imu:/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/motor_control', 'SSH_CONNECTION': '192.168.219.102 33746 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller:/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[8.484809] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/ros2_ws/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 33746 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/my_robot_controller:/home/ubuntu/ros2_ws/install/mpu6050_imu:/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/my_robot_controller', 'SSH_CONNECTION': '192.168.219.102 33746 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller:/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[8.499422] (-) TimerEvent: {}
+[8.513910] (mpu6050_imu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/build/mpu6050_imu/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/ubuntu/ros2_ws/build/mpu6050_imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 33746 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/my_robot_controller:/home/ubuntu/ros2_ws/install/mpu6050_imu:/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/mpu6050_imu', 'SSH_CONNECTION': '192.168.219.102 33746 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller:/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[8.557351] (robot_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/build/robot_test/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/ubuntu/ros2_ws/build/robot_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 33746 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2:/home/ubuntu/ros2_ws/install/my_robot_controller:/home/ubuntu/ros2_ws/install/mpu6050_imu:/home/ubuntu/ros2_ws/install/motor_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'PWD': '/home/ubuntu/ros2_ws/build/robot_test', 'SSH_CONNECTION': '192.168.219.102 33746 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages:/home/jakhon37/myprojects/mmm/autonomus/auto_ros/ros2_tutor/ros2_ws/build/my_robot_controller:/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[8.599643] (-) TimerEvent: {}
+[8.701077] (-) TimerEvent: {}
+[8.802023] (-) TimerEvent: {}
+[8.902993] (-) TimerEvent: {}
+[9.004000] (-) TimerEvent: {}
+[9.105006] (-) TimerEvent: {}
+[9.205904] (-) TimerEvent: {}
+[9.306791] (-) TimerEvent: {}
+[9.407664] (-) TimerEvent: {}
+[9.508904] (-) TimerEvent: {}
+[9.610005] (-) TimerEvent: {}
+[9.710931] (-) TimerEvent: {}
+[9.811872] (-) TimerEvent: {}
+[9.912840] (-) TimerEvent: {}
+[10.013826] (-) TimerEvent: {}
+[10.115340] (-) TimerEvent: {}
+[10.216891] (-) TimerEvent: {}
+[10.318043] (-) TimerEvent: {}
+[10.325894] (mpu6050_imu) StdoutLine: {'line': b'running develop\n'}
+[10.347448] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[10.387288] (motor_control) StdoutLine: {'line': b'running develop\n'}
+[10.397307] (robot_test) StdoutLine: {'line': b'running develop\n'}
+[10.418252] (-) TimerEvent: {}
+[10.519688] (-) TimerEvent: {}
+[10.620774] (-) TimerEvent: {}
+[10.723019] (-) TimerEvent: {}
+[10.825228] (-) TimerEvent: {}
+[10.927380] (-) TimerEvent: {}
+[11.029549] (-) TimerEvent: {}
+[11.131979] (-) TimerEvent: {}
+[11.234252] (-) TimerEvent: {}
+[11.336486] (-) TimerEvent: {}
+[11.438693] (-) TimerEvent: {}
+[11.451113] (mpu6050_imu) StdoutLine: {'line': b'running egg_info\n'}
+[11.455332] (mpu6050_imu) StdoutLine: {'line': b'writing mpu6050_imu.egg-info/PKG-INFO\n'}
+[11.460212] (mpu6050_imu) StdoutLine: {'line': b'writing dependency_links to mpu6050_imu.egg-info/dependency_links.txt\n'}
+[11.467251] (mpu6050_imu) StdoutLine: {'line': b'writing entry points to mpu6050_imu.egg-info/entry_points.txt\n'}
+[11.468490] (robot_test) StdoutLine: {'line': b'running egg_info\n'}
+[11.471753] (robot_test) StdoutLine: {'line': b'writing robot_test.egg-info/PKG-INFO\n'}
+[11.472444] (robot_test) StdoutLine: {'line': b'writing dependency_links to robot_test.egg-info/dependency_links.txt\n'}
+[11.474622] (robot_test) StdoutLine: {'line': b'writing entry points to robot_test.egg-info/entry_points.txt\n'}
+[11.475592] (robot_test) StdoutLine: {'line': b'writing requirements to robot_test.egg-info/requires.txt\n'}
+[11.476166] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[11.476817] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[11.477388] (robot_test) StdoutLine: {'line': b'writing top-level names to robot_test.egg-info/top_level.txt\n'}
+[11.483540] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[11.485028] (mpu6050_imu) StdoutLine: {'line': b'writing requirements to mpu6050_imu.egg-info/requires.txt\n'}
+[11.486041] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[11.487557] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[11.488291] (robot_test) StdoutLine: {'line': b"reading manifest file 'robot_test.egg-info/SOURCES.txt'\n"}
+[11.489003] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[11.491710] (mpu6050_imu) StdoutLine: {'line': b'writing top-level names to mpu6050_imu.egg-info/top_level.txt\n'}
+[11.497198] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.498165] (robot_test) StdoutLine: {'line': b"writing manifest file 'robot_test.egg-info/SOURCES.txt'\n"}
+[11.504308] (mpu6050_imu) StdoutLine: {'line': b"reading manifest file 'mpu6050_imu.egg-info/SOURCES.txt'\n"}
+[11.505704] (robot_test) StdoutLine: {'line': b'running build_ext\n'}
+[11.506779] (robot_test) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages/robot-test.egg-link (link to .)\n'}
+[11.511082] (robot_test) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test\n'}
+[11.512196] (robot_test) StdoutLine: {'line': b'Installing my_first_node script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test\n'}
+[11.513101] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.514377] (robot_test) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test\n'}
+[11.515533] (mpu6050_imu) StdoutLine: {'line': b"writing manifest file 'mpu6050_imu.egg-info/SOURCES.txt'\n"}
+[11.516444] (robot_test) StdoutLine: {'line': b'\n'}
+[11.517494] (robot_test) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/build/robot_test\n'}
+[11.521402] (robot_test) StdoutLine: {'line': b'running symlink_data\n'}
+[11.522680] (robot_test) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/robot_test/resource/robot_test -> /home/ubuntu/ros2_ws/install/robot_test/share/ament_index/resource_index/packages\n'}
+[11.524058] (robot_test) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/robot_test/package.xml -> /home/ubuntu/ros2_ws/install/robot_test/share/robot_test\n'}
+[11.535667] (mpu6050_imu) StdoutLine: {'line': b'running build_ext\n'}
+[11.537988] (mpu6050_imu) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)\n'}
+[11.539146] (-) TimerEvent: {}
+[11.550990] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[11.554178] (mpu6050_imu) StdoutLine: {'line': b'Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu\n'}
+[11.557939] (mpu6050_imu) StdoutLine: {'line': b'\n'}
+[11.559177] (mpu6050_imu) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/build/mpu6050_imu\n'}
+[11.561423] (mpu6050_imu) StdoutLine: {'line': b'running symlink_data\n'}
+[11.562618] (mpu6050_imu) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/resource/mpu6050_imu -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/ament_index/resource_index/packages\n'}
+[11.563738] (mpu6050_imu) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/package.xml -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/mpu6050_imu\n'}
+[11.570682] (my_robot_controller) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[11.588390] (my_robot_controller) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.597912] (my_robot_controller) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.602366] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/ubuntu/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.611355] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[11.613973] (my_robot_controller) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/build/my_robot_controller\n'}
+[11.617459] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[11.625399] (my_robot_controller) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/ubuntu/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[11.627636] (my_robot_controller) StderrLine: {'line': b"error: [Errno 17] File exists: '/home/ubuntu/ros2_ws/build/my_robot_controller/resource/my_robot_controller' -> '/home/ubuntu/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller'\n"}
+[11.639546] (-) TimerEvent: {}
+[11.742823] (-) TimerEvent: {}
+[11.793104] (robot_test) CommandEnded: {'returncode': 0}
+[11.817252] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[11.818393] (motor_control) StdoutLine: {'line': b'writing motor_control.egg-info/PKG-INFO\n'}
+[11.819468] (motor_control) StdoutLine: {'line': b'writing dependency_links to motor_control.egg-info/dependency_links.txt\n'}
+[11.827017] (motor_control) StdoutLine: {'line': b'writing entry points to motor_control.egg-info/entry_points.txt\n'}
+[11.828469] (motor_control) StdoutLine: {'line': b'writing requirements to motor_control.egg-info/requires.txt\n'}
+[11.829981] (motor_control) StdoutLine: {'line': b'writing top-level names to motor_control.egg-info/top_level.txt\n'}
+[11.843162] (-) TimerEvent: {}
+[11.862468] (motor_control) StdoutLine: {'line': b"reading manifest file 'motor_control.egg-info/SOURCES.txt'\n"}
+[11.876241] (motor_control) StdoutLine: {'line': b"writing manifest file 'motor_control.egg-info/SOURCES.txt'\n"}
+[11.902372] (motor_control) StdoutLine: {'line': b'running build_ext\n'}
+[11.905806] (motor_control) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor-control.egg-link (link to .)\n'}
+[11.916031] (motor_control) StdoutLine: {'line': b'Installing motor_controller script to /home/ubuntu/ros2_ws/install/motor_control/lib/motor_control\n'}
+[11.918585] (motor_control) StdoutLine: {'line': b'\n'}
+[11.919620] (motor_control) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/build/motor_control\n'}
+[11.920591] (motor_control) StdoutLine: {'line': b'running symlink_data\n'}
+[11.922278] (motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/motor_control/resource/motor_control -> /home/ubuntu/ros2_ws/install/motor_control/share/ament_index/resource_index/packages\n'}
+[11.924511] (motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/build/motor_control/package.xml -> /home/ubuntu/ros2_ws/install/motor_control/share/motor_control\n'}
+[11.943391] (-) TimerEvent: {}
+[12.045028] (-) TimerEvent: {}
+[12.062820] (robot_test) JobEnded: {'identifier': 'robot_test', 'rc': 0}
+[12.073219] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[12.095600] (my_robot_controller) CommandEnded: {'returncode': 1}
+[12.100345] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 1}
+[12.103745] (mpu6050_imu) CommandEnded: {'returncode': 0}
+[12.144921] (mpu6050_imu) JobEnded: {'identifier': 'mpu6050_imu', 'rc': 0}
+[12.149477] (-) TimerEvent: {}
+[12.149970] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 'SIGINT'}
+[12.151847] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 'SIGINT'}
+[12.161222] (-) EventReactorShutdown: {}

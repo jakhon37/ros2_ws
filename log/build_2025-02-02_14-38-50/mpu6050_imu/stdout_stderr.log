@@ -1,0 +1,27 @@
+running develop
+Removing /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)
+running egg_info
+writing ../../build/mpu6050_imu/mpu6050_imu.egg-info/PKG-INFO
+writing dependency_links to ../../build/mpu6050_imu/mpu6050_imu.egg-info/dependency_links.txt
+writing entry points to ../../build/mpu6050_imu/mpu6050_imu.egg-info/entry_points.txt
+writing requirements to ../../build/mpu6050_imu/mpu6050_imu.egg-info/requires.txt
+writing top-level names to ../../build/mpu6050_imu/mpu6050_imu.egg-info/top_level.txt
+reading manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+writing manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+copying /home/ubuntu/ros2_ws/build/mpu6050_imu/build/lib/mpu6050_imu/__init__.py -> /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+copying /home/ubuntu/ros2_ws/build/mpu6050_imu/build/lib/mpu6050_imu/mpu6050_node.py -> /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+byte-compiling /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu/mpu6050_node.py to mpu6050_node.cpython-310.pyc
+running install_data
+copying resource/mpu6050_imu -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/mpu6050_imu
+running install_egg_info
+Copying ../../build/mpu6050_imu/mpu6050_imu.egg-info to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu
+writing list of installed files to '/home/ubuntu/ros2_ws/build/mpu6050_imu/install.log'

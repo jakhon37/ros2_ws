@@ -77,6 +77,35 @@ This automatically generates:
 - A folder named `my_robot_controller` (the Python module) containing `__init__.py`
 
 ---
+---
+
+### Create motor nodes 
+
+Inside your `src` directory:
+
+```bash
+cd ~/ros2_ws/src
+sudo apt-get install python3-rpi.gpio
+
+ros2 pkg create --build-type ament_python motor_control --dependencies rclpy geometry_msgs
+```
+update entry point on setup.py file 
+```
+entry_points={
+    'console_scripts': [
+        'motor_controller = motor_control.motor_controller:main',
+    ],
+},
+
+```
+Build the Package
+```
+cd ~/ros2_ws
+colcon build --packages-select motor_control
+source install/setup.bash
+```
+
+---
 
 ### Understand the Project Structure
 

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_test
+robot_test/__init__.py
+robot_test/listener.py
+robot_test/my_first_node.py
+robot_test/talker.py
+robot_test.egg-info/PKG-INFO
+robot_test.egg-info/SOURCES.txt
+robot_test.egg-info/dependency_links.txt
+robot_test.egg-info/entry_points.txt
+robot_test.egg-info/requires.txt
+robot_test.egg-info/top_level.txt
+robot_test.egg-info/zip-safe

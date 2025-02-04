@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating robot_test.egg-info
+writing robot_test.egg-info/PKG-INFO
+writing dependency_links to robot_test.egg-info/dependency_links.txt
+writing entry points to robot_test.egg-info/entry_points.txt
+writing requirements to robot_test.egg-info/requires.txt
+writing top-level names to robot_test.egg-info/top_level.txt
+writing manifest file 'robot_test.egg-info/SOURCES.txt'
+reading manifest file 'robot_test.egg-info/SOURCES.txt'
+writing manifest file 'robot_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/lib/python3.10/site-packages/robot-test.egg-link (link to .)
+Installing listener script to /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/lib/robot_test
+Installing my_first_node script to /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/lib/robot_test
+Installing talker script to /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/lib/robot_test
+
+Installed /home/ubuntu/ros2_ws/src/robot_test/build/robot_test
+running symlink_data
+creating /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/share/ament_index
+creating /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/src/robot_test/build/robot_test/resource/robot_test -> /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/src/robot_test/build/robot_test/package.xml -> /home/ubuntu/ros2_ws/src/robot_test/install/robot_test/share/robot_test

@@ -1,0 +1,21 @@
+[8.434s] Invoking command in '/home/ubuntu/ros2_ws/build/robot_test': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_test/build --no-deps symlink_data --force
+[10.272s] running develop
+[11.345s] running egg_info
+[11.346s] writing robot_test.egg-info/PKG-INFO
+[11.347s] writing dependency_links to robot_test.egg-info/dependency_links.txt
+[11.349s] writing entry points to robot_test.egg-info/entry_points.txt
+[11.350s] writing requirements to robot_test.egg-info/requires.txt
+[11.352s] writing top-level names to robot_test.egg-info/top_level.txt
+[11.363s] reading manifest file 'robot_test.egg-info/SOURCES.txt'
+[11.373s] writing manifest file 'robot_test.egg-info/SOURCES.txt'
+[11.381s] running build_ext
+[11.381s] Creating /home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages/robot-test.egg-link (link to .)
+[11.386s] Installing listener script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[11.387s] Installing my_first_node script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[11.389s] Installing talker script to /home/ubuntu/ros2_ws/install/robot_test/lib/robot_test
+[11.391s] 
+[11.395s] Installed /home/ubuntu/ros2_ws/build/robot_test
+[11.396s] running symlink_data
+[11.398s] symbolically linking /home/ubuntu/ros2_ws/build/robot_test/resource/robot_test -> /home/ubuntu/ros2_ws/install/robot_test/share/ament_index/resource_index/packages
+[11.399s] symbolically linking /home/ubuntu/ros2_ws/build/robot_test/package.xml -> /home/ubuntu/ros2_ws/install/robot_test/share/robot_test
+[11.680s] Invoked command in '/home/ubuntu/ros2_ws/build/robot_test' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/robot_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/robot_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/robot_test/build --no-deps symlink_data --force

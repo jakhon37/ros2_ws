@@ -1,0 +1,30 @@
+[7.619s] Invoking command in '/home/ubuntu/ros2_ws/build/mpu6050_imu': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/mpu6050_imu/build
+[9.589s] running develop
+[10.762s] Removing /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)
+[11.013s] Invoked command in '/home/ubuntu/ros2_ws/build/mpu6050_imu' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws/build/mpu6050_imu/build
+[11.015s] Invoking command in '/home/ubuntu/ros2_ws/src/mpu6050_imu': PYTHONPATH=/home/ubuntu/ros2_ws/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mpu6050_imu build --build-base /home/ubuntu/ros2_ws/build/mpu6050_imu/build install --record /home/ubuntu/ros2_ws/build/mpu6050_imu/install.log --single-version-externally-managed install_data --force
+[13.076s] running egg_info
+[13.085s] writing ../../build/mpu6050_imu/mpu6050_imu.egg-info/PKG-INFO
+[13.088s] writing dependency_links to ../../build/mpu6050_imu/mpu6050_imu.egg-info/dependency_links.txt
+[13.096s] writing entry points to ../../build/mpu6050_imu/mpu6050_imu.egg-info/entry_points.txt
+[13.098s] writing requirements to ../../build/mpu6050_imu/mpu6050_imu.egg-info/requires.txt
+[13.106s] writing top-level names to ../../build/mpu6050_imu/mpu6050_imu.egg-info/top_level.txt
+[13.117s] reading manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+[13.127s] writing manifest file '../../build/mpu6050_imu/mpu6050_imu.egg-info/SOURCES.txt'
+[13.130s] running build
+[13.133s] running build_py
+[13.141s] running install
+[13.151s] running install_lib
+[13.152s] creating /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+[13.153s] copying /home/ubuntu/ros2_ws/build/mpu6050_imu/build/lib/mpu6050_imu/__init__.py -> /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+[13.155s] copying /home/ubuntu/ros2_ws/build/mpu6050_imu/build/lib/mpu6050_imu/mpu6050_node.py -> /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu
+[13.167s] byte-compiling /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu/__init__.py to __init__.cpython-310.pyc
+[13.169s] byte-compiling /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu/mpu6050_node.py to mpu6050_node.cpython-310.pyc
+[13.176s] running install_data
+[13.177s] copying resource/mpu6050_imu -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/ament_index/resource_index/packages
+[13.178s] copying package.xml -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/mpu6050_imu
+[13.178s] running install_egg_info
+[13.187s] Copying ../../build/mpu6050_imu/mpu6050_imu.egg-info to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050_imu-0.0.0-py3.10.egg-info
+[13.202s] running install_scripts
+[13.375s] Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu
+[13.379s] writing list of installed files to '/home/ubuntu/ros2_ws/build/mpu6050_imu/install.log'

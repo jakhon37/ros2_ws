@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing mpu6050_imu.egg-info/PKG-INFO
+writing dependency_links to mpu6050_imu.egg-info/dependency_links.txt
+writing entry points to mpu6050_imu.egg-info/entry_points.txt
+writing requirements to mpu6050_imu.egg-info/requires.txt
+writing top-level names to mpu6050_imu.egg-info/top_level.txt
+reading manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+writing manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)
+Installing mpu6050_node script to /home/ubuntu/ros2_ws/install/mpu6050_imu/lib/mpu6050_imu
+
+Installed /home/ubuntu/ros2_ws/build/mpu6050_imu
+running symlink_data
+symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/resource/mpu6050_imu -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws/build/mpu6050_imu/package.xml -> /home/ubuntu/ros2_ws/install/mpu6050_imu/share/mpu6050_imu
